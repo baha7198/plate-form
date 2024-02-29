@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<?php
+include("header/tete-en.php");
+?>
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>CDE</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo-cde.png" />
-
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap-aprilla.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
-    <link rel="stylesheet" href="assets/css/aprille.css" />
-    <link rel="stylesheet" href="assets/fonts/font-family.css" />
-    
-
-</head>
-
-<body style="font-family:Droid Arabic Kufi;">
+<body style="font-family: Arial, Helvetica, sans-serif;">
     <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
@@ -42,75 +23,22 @@
     <!-- /End Preloader -->
 
     <!-- Start Header Area -->
-    <header style="direction:rtl;font-family:Droid Arabic Kufi;" class="header navbar-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="nav-inner">
-                        <!-- Start Navbar -->
-                        <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo/logo-cde.png">
-                            </a>
-                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                <ul id="nav" class="navbar-nav ms-auto">
-                                    <li class="nav-item">
-                                        <a href="#home" class="page-scroll active"
-                                            aria-label="Toggle navigation">الرئيسية</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#features" class="page-scroll"
-                                            aria-label="Toggle navigation">من نحن</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">الخصوصية</a>
-                                    </li>
-                                    
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">الفريق</a>
-                                    </li>
-                                    
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">تواصل  معنا</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation">  </a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="javascript:void(0)" aria-label="Toggle navigation"> <i class="lni lni-cog"></i> &nbsp;&nbsp;En</a>
-                                    </li>
-                                </ul>
-                            </div> <!-- navbar collapse -->
-                            <div class="button add-list-button">
-                                <a href="inscription.html" class="btn" style="background-color: #16e7c4;color:white;border-color: transparent;">التسجيل في المنصة</a>
-                            </div>
-                        </nav>
-                        <!-- End Navbar -->
-                    </div>
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </header>
+    <?php
+    include("header/header-en.php");
+    ?>
     <!-- End Header Area -->
 
     <!-- Start Hero Area -->
-    <section style="direction:rtl;text-align: right;" id="home" class="hero-area">
+    <section id="home" class="hero-area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="hero-content">
-                        <h1 style="color: #16e7c4;text-align: right;" class="wow fadeInLeft" data-wow-delay=".4s">C D E</h1>
-                        <h1 style="font-size: 27px;text-align: right; color: #16e7c4;" class="wow fadeInLeft" data-wow-delay=".4s">مركز تطوير المقاولاتية</h1>
-                        <p style="text-align: right;" class="wow fadeInLeft" data-wow-delay=".6s">من الخدمات مفتوحة المصدر إلى الخدمات الاحترافية، تساعدك على إنشاء التطبيقات ونشرها واختبارها ومراقبتها.</p>
-                        <div style="text-align: right;" class="button wow fadeInLeft" data-wow-delay=".8s">
+                        <h1 style="color: #16e7c4;" class="wow fadeInLeft" data-wow-delay=".4s">C D E</h1>
+                        <h1 style="font-size: 27px;color: #16e7c4;" class="wow fadeInLeft" data-wow-delay=".4s">Centre de Développement de l'Entrepreneuriat</h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s">From open source to pro services, Piqes helps you
+                            to build, deploy, test, and monitor apps.</p>
+                        <div class="button wow fadeInLeft" data-wow-delay=".8s">
                             <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> App Store</a>
                             <a href="javascript:void(0)" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
                                 Play</a>
@@ -128,15 +56,16 @@
     <!-- End Hero Area -->
 
     <!-- Start Features Area -->
-    <section style="direction:rtl;text-align: right;" id="features" class="features section">
+    <section id="features" class="features section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">السمات</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">تجربتك تصبح أفضل وأفضل بمرور الوقت.
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Your Experience Gets Better And Better Over Time.
                         </h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">هناك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، لكن الأغلبية تم تعديلها بشكل ما.</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
+                            Ipsum available, but the majority have suffered alteration in some form.</p>
                     </div>
                 </div>
             </div>
@@ -145,8 +74,8 @@
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
                         <i class="lni lni-cloud-upload"></i>
-                        <h3 style="text-align: right;">Push to Deploy</h3>
-                        <p style="text-align: right;">It is a long established fact that a reader will be distracted by the readable content of a
+                        <h3>Push to Deploy</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page at its layout.</p>
                     </div>
                     <!-- End Single Feature -->
@@ -155,8 +84,8 @@
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
                         <i class="lni lni-lock"></i>
-                        <h3 style="text-align: right;">SSL Certificates</h3>
-                        <p style="text-align: right;">It is a long established fact that a reader will be distracted by the readable content of a
+                        <h3>SSL Certificates</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page at its layout.</p>
                     </div>
                     <!-- End Single Feature -->
@@ -165,8 +94,8 @@
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
                         <i class="lni lni-reload"></i>
-                        <h3 style="text-align: right;">Simple Queues</h3>
-                        <p style="text-align: right;">It is a long established fact that a reader will be distracted by the readable content of a
+                        <h3>Simple Queues</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page at its layout.</p>
                     </div>
                     <!-- End Single Feature -->
@@ -175,8 +104,8 @@
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
                         <i class="lni lni-shield"></i>
-                        <h3 style="text-align: right;">Advanced Security</h3>
-                        <p style="text-align: right;">It is a long established fact that a reader will be distracted by the readable content of a
+                        <h3>Advanced Security</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page at its layout.</p>
                     </div>
                     <!-- End Single Feature -->
@@ -185,8 +114,8 @@
                     <!-- Start Single Feature -->
                     <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
                         <i class="lni lni-cog"></i>
-                        <h3 style="text-align: right;">Powerful API</h3>
-                        <p style="text-align: right;">It is a long established fact that a reader will be distracted by the readable content of a
+                        <h3>Powerful API</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page at its layout.</p>
                     </div>
                     <!-- End Single Feature -->
@@ -515,7 +444,7 @@
     <script src="assets/js/tiny-slider.js"></script>
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/aprilla.js"></script>
+    <script src="assets/js/main1.js"></script>
     <script type="text/javascript">
 
         //====== counter up 
